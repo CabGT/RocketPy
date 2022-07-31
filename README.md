@@ -11,7 +11,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/rocketpy)
 [![DOI](https://img.shields.io/badge/DOI-10.1061%2F%28ASCE%29AS.1943--5525.0001331-blue.svg)](http://dx.doi.org/10.1061/%28ASCE%29AS.1943-5525.0001331)
 
-<br>
+<img src="https://static.scarf.sh/a.png?x-pxid=6f4094ab-00fa-4a8d-9247-b7ed27e7164d" />
 
 # RocketPy
 RocketPy is the next-generation trajectory simulation solution for High-Power Rocketry. The code is written as a [Python](http://www.python.org) library and allows for a complete 6 degrees of freedom simulation of a rocket's flight trajectory, including high fidelity variable mass effects as well as descent under parachutes. Weather conditions, such as wind profile, can be imported from sophisticated datasets, allowing for realistic scenarios. Furthermore, the implementation facilitates complex simulations, such as multi-stage rockets, design and trajectory optimization and dispersion analysis.
@@ -82,6 +82,14 @@ RocketPy is the next-generation trajectory simulation solution for High-Power Ro
 </ul>
 </details>
 
+<details>
+<summary>Integration with MATLAB®</summary>
+<ul>
+  <li>Straightforward way to run RocketPy from MATLAB®</li>
+  <li>Convert RocketPy results to MATLAB® variables so that they can be processed by MATLAB®</li>
+</ul>
+</details>
+
 <br>
 
 ## Validation
@@ -91,11 +99,11 @@ RocketPy's features have been validated in our latest [research article publishe
 The table below shows a comparison between experimental data and the output from RocketPy.
 Flight data and rocket parameters used in this comparison were kindly provided by [EPFL Rocket Team](https://github.com/EPFLRocketTeam) and [Notre Dame Rocket Team](https://ndrocketry.weebly.com/).
 
-|         Mission         |    Result Paramater    | RocketPy  | Measured  | Relative Error |
+|         Mission         |    Result Parameter    | RocketPy  | Measured  | Relative Error |
 |:-----------------------:|:-----------------------|:---------:|:---------:|:--------------:|
 |   Bella Lui Kaltbrumn   | Apogee altitude (m)    |   461.03  |   458.97  |   **0.45 %**   |
 |   Bella Lui Kaltbrumn   | Apogee time (s)        |    10.61  |    10.56  |   **0.47 %**   |
-|   Bella Lui Kaltbrumn   | Maximum velocity (m/s) |    86.18  |    90.00  |   **4.24 %**   |
+|   Bella Lui Kaltbrumn   | Maximum velocity (m/s) |    86.18  |    90.00  |   **-4.24 %**   |
 |   NDRT launch vehicle   | Apogee altitude (m)    | 1,310.44  | 1,320.37  |   **-0.75 %**  |
 |   NDRT launch vehicle   | Apogee time (s)        |    16.77  |    17.10  |   **-1.90 %**  |
 |   NDRT launch vehicle   | Maximum velocity (m/s) |   172.86  |   168.95  |   **2.31 %**   |

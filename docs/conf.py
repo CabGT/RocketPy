@@ -19,11 +19,12 @@ sys.path.insert(0, os.path.abspath("../"))
 # -- Project information -----------------------------------------------------
 
 project = "RocketPy"
-copyright = "2020, Projeto Jupiter"
-author = "Giovani Hdalgo Ceotto"
+copyright = "2020, RocketPy Team"
+
+author = "Giovani Hidalgo Ceotto"
 
 # The full version, including alpha/beta/rc tags
-release = "0.9.8"
+release = "0.11.0"
 
 
 # -- General configuration ---------------------------------------------------
